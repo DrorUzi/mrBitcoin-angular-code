@@ -1,0 +1,9 @@
+<section class="contact-page-container">
+    <h1 class="list-header">Contact List</h1>
+    <div class="filter-add">
+        <a routerLink="/contact/edit" class="add-btn" >Add contact</a> 
+        <input class="filter-input" (input)="handleFilter()"  [(ngModel)]="filterBy.term" placeholder="Find contact 	        &#x2315;" name="filter" type="text">
+    </div>
+    <app-contact-list [contacts]="contacts"></app-contact-list>
+</section>
+

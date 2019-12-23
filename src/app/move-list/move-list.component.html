@@ -1,0 +1,15 @@
+<div class="move-list-container">
+    <h1 *ngIf="!user.moves.length">No Transfers yet</h1>
+
+    <div *ngIf="user.moves.length" class="moves">
+        <h1>Your Transfers</h1>
+        <div *ngFor="let move of user.moves" class="trans" key={move.at}>
+            <h2>To {{move.to.name}}</h2>
+            <h3> &#8383;{{move.amount}}</h3>
+            <h3>status: <span>Approve</span></h3>
+            <h4>{{move.at}}</h4>
+        </div>
+
+    </div>
+    <img src="../../assets/moves.png" alt="" />
+</div>

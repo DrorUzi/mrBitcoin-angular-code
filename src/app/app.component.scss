@@ -1,0 +1,37 @@
+
+html, body ,p,h1,h2,h3{
+    margin: 0;
+}
+
+.main-app{
+    display: flex;
+    flex-direction: column;
+    margin-top:80px;
+    height: 100%;
+    .footer{
+        height: 80px;
+        background-color: #303B4A;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        h1{
+            font-size: 1rem;
+            margin-bottom:15px; 
+        }
+    }
+    .logo{
+        border-bottom: 2px solid #e3ba67;
+        width: fit-content;
+        color: white;
+        padding-left: 20px;
+        height: fit-content;
+    }
+}
+
+
+
+
+

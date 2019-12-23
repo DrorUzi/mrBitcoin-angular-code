@@ -1,0 +1,38 @@
+
+.contact-preview {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: space-between;
+  .contact-preview-info{
+    display: flex;
+    align-items: center;
+    h1{
+      font-size:1.3rem;
+    }
+  }
+  img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  a,button{
+    text-decoration: none;
+    color: #303b4a;
+    font-size:1.2rem;
+    border:none;
+    border-top: 1px solid #e3ba67;
+    border-right: 1px solid #e3ba67;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin-left:10px;
+    font-family: openSans;
+    &:hover{
+      background-color: #e3ba67;
+      border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+
+p,h1,h2,h3{
+    margin: 0;
+}
+
+.hero{
+    background-image: url('../../assets/hero1.jpg');
+    background-size: cover;
+    width: 100%;
+    .hero-txt{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            margin-left:50px;
+            font-size: 3rem;
+            color: white;
+        }
+        span{
+            color:#e3ba67;
+        }
+    }
+
+}
+
+@media (min-width: 700px) {
+    .hero-txt{
+        height: 500px!important;
+    }
+}
+.user-details-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #303B4A;
+    padding: 40px;
+    height: 100%;
+    justify-content: center;
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .user-info-imgs {
+        display: flex;
+        flex-direction: row;
+        .coins-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            h3 {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+            img {
+                width: 150px;
+                height:auto;
+                margin-bottom: 15px;
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 500px) {
+    img {
+        width: 200px!important;
+        height: 200px!important;
+    }
+}

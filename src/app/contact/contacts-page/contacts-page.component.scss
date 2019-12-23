@@ -1,0 +1,46 @@
+.contact-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  .list-header {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #303b4a;
+    border-bottom: 1px solid #e3ba67;
+    width: fit-content;
+    margin: 25px auto;
+  }
+  .filter-add {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    .filter-input {
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #21626a;
+      outline: none;
+      font-size: 1rem;
+      width: 10rem;
+      margin-bottom: 10px;
+    }
+    ::-webkit-input-placeholder { 
+      font-size:1rem;
+    }
+    .add-btn {
+      width: fit-content;
+      background-color: #e3ba67;
+      border: none;
+      color: black;
+      padding: 3px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      height: fit-content;
+      text-decoration: none;
+      font-size:1.2rem;
+    }
+  }
+}

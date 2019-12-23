@@ -1,0 +1,13 @@
+.contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #303b4a;
+    a{
+      text-decoration: none;
+      color: #303b4a;
+      border-bottom: 1px solid #303b4a;
+      width: 80%;
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,21 @@
+<div class="hero">
+    <div class="hero-txt">
+        <h2><span>New</span> Currency - <br />New <span>Lifestyle!</span></h2>
+    </div>
+</div>
+<section class="user-details-home">
+    <h1>Welcome {{currUser.name}}!</h1>
+    <div class="user-info-imgs">
+        <div class="coins-img">
+            <img src="../../assets/coins.png" alt="" />
+            <h2>Coins</h2>
+            <h3>{{currUser.coins}}</h3>
+        </div>
+        <div class="coins-img">
+            <img src="../../assets/bitcoin.png" alt="" />
+            <h2>BTC</h2>
+            <!-- <h3>{rate}</h3> -->
+        </div>
+    </div>
+    <app-move-list [user]="currUser" ></app-move-list>
+</section>

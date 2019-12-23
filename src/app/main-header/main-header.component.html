@@ -1,0 +1,9 @@
+<div class="main-header">
+    <h1 class="logo">MisterBitcoin</h1>
+    <p (click)="toggleShow()">&#9776;</p>
+    <div [class.show]="isShow" class="pages">
+    <a (click)="toggleShow()" routerLink="" routerLinkActive="active">HomePage</a>
+    <a (click)="toggleShow()" routerLink="/contact" routerLinkActive="active">Contacts</a>
+    <a (click)="toggleShow()" routerLink="/statistic" routerLinkActive="active">Statistic</a>
+    </div>
+</div>

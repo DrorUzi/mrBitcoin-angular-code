@@ -1,0 +1,10 @@
+<div class="contact-preview">
+    <div class="contact-preview-info">
+        <img src="https://robohash.org/{{contact._id}}?set=set5" alt="profile" />
+        <h1>{{contact.name}}</h1>
+    </div>
+    <div>
+        <a routerLink="/contact/edit/{{contact._id}}">Edit contact</a>
+        <button (click)="delete()">Delete</button>
+    </div>
+</div>

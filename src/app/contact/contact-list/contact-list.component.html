@@ -1,0 +1,5 @@
+<section  class="contacts-list">
+    <a  *ngFor="let contact of contacts" routerLink="/contact/{{contact._id}}" routerLinkActive="active">
+        <app-contact-preview [contact]="contact"></app-contact-preview>
+    </a>
+</section >
